@@ -7,42 +7,14 @@
 ├── app.js
 ├── app.json
 ├── app.wxss
-├── data
-│   └── posts-data.js
 ├── images
 │   ├── avatar
 │   │   └── 1.png
-│   ├── icon
-│   │   ├── arrow-right.png
-│   │   ├── chat.png
-│   │   ├── collection-anti.png
-│   │   ├── collection.png
-│   │   ├── none-star.png
-│   │   ├── share-anti.png
-│   │   ├── share.png
-│   │   ├── star.png
-│   │   ├── view.png
-│   │   └── xx.png
-│   ├── iqiyi.png
-│   ├── music
-│   │   ├── music-start.png
-│   │   └── music-stop.png
-│   ├── post
-│   │   ├── bl.png
-│   │   ├── cat.png
-│   │   ├── crab.png
-│   │   ├── sls.JPG
-│   │   ├── vr.png
-│   │   └── xiaolong.jpg
-│   ├── tab
-│   │   ├── ciwei.png
-│   │   ├── ciwei_hl.png
-│   │   ├── dianying.png
-│   │   ├── dianying_hl.png
-│   │   ├── yuedu.png
-│   │   └── yuedu_hl.png
-│   ├── vr.png
-│   └── wx.png
+│   └── icon
+│       ├── arrow-right.png
+│       ├── none-star.png
+│       ├── star.png
+│       └── xx.png
 ├── pages
 │   ├── movies
 │   │   ├── more-movie
