@@ -71,7 +71,13 @@
 ### 安装说明
 
 ```
+git clone https://github.com/songhaoreact/weixin.git
+cd weixin
+可以真机运行也可以ide运行
+补充说明：
 screenshots文件夹不需要，只是github上的效果图。
+readme也是github上面的，都不需要。
+运行前删掉screenshots和readme.md文件就行。
 项目来自慕课网实战,api采用豆瓣公共api接口。
 如果demo对你有帮助的话，帮忙点个star。
 ```
