@@ -1,5 +1,5 @@
 <import src="../stars/stars-template.wxml" />
-<view class="container">
+<view class="container" class="hidden {{visible?'visible':''}}">
   <image class="head-img" src="{{movie.movieImg}}" mode="aspectFill" />
   <view class="head-img-hover" data-src="{{movie.movieImg}}" catchtap="viewMoviePostImg">
     <text class="main-title">{{movie.title}}</text>
