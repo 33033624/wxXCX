@@ -61,6 +61,9 @@
 ![image](https://github.com/songhaoreact/weixin/blob/master/screenshots/1.png)
 ![image](https://github.com/songhaoreact/weixin/blob/master/screenshots/2.png)
 ![image](https://github.com/songhaoreact/weixin/blob/master/screenshots/3.png)
+
+### 快速体验，可通过微信扫描下面二维码
+![image](https://github.com/songhaoreact/weixin/blob/master/screenshots/4.png)
 ### 功能说明
 接口访问来自豆瓣api,目前功能有
 搜索功能
