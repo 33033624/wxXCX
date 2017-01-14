@@ -149,7 +149,14 @@
     margin: 10rpx auto 0;
 }
 
+.hidden{
+  opacity: 0;
+}
 
+.visible{
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
 
 
 
