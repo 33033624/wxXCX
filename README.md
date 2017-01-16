@@ -1,5 +1,5 @@
 ## 微信小程序-豆瓣电影项目
-###项目树
+###文件目录
 
 ```
 
@@ -10,50 +10,58 @@
 ├── images
 │   ├── avatar
 │   │   └── 1.png
-│   └── icon
-│       ├── arrow-right.png
-│       ├── none-star.png
-│       ├── star.png
-│       └── xx.png
+│   ├── icon
+│   │   ├── arrow-right.png
+│   │   ├── none-star.png
+│   │   ├── star.png
+│   │   └── xx.png
+│   ├── index
+│   │   └── loading.gif
+│   └── more
+│       ├── 1.png
+│       ├── title.png
+│       └── wave.png
 ├── pages
-│   ├── movies
-│   │   ├── more-movie
-│   │   │   ├── more-movie.js
-│   │   │   ├── more-movie.json
-│   │   │   ├── more-movie.wxml
-│   │   │   └── more-movie.wxss
-│   │   ├── movie
-│   │   │   ├── movie-template.wxml
-│   │   │   └── movie-template.wxss
-│   │   ├── movie-detail
-│   │   │   ├── class
-│   │   │   │   └── Movie.js
-│   │   │   ├── movie-detail.js
-│   │   │   ├── movie-detail.json
-│   │   │   ├── movie-detail.wxml
-│   │   │   └── movie-detail.wxss
-│   │   ├── movie-grid
-│   │   │   ├── movie-grid-template.wxml
-│   │   │   └── movie-grid-template.wxss
-│   │   ├── movie-list
-│   │   │   ├── movie-list-template.wxml
-│   │   │   └── movie-list-template.wxss
-│   │   ├── movies.js
-│   │   ├── movies.json
-│   │   ├── movies.wxml
-│   │   ├── movies.wxss
-│   │   └── stars
-│   │       ├── stars-template.wxml
-│   │       └── stars-template.wxss
-│   └── welcome
-│       ├── welcome.js
-│       ├── welcome.json
-│       ├── welcome.wxml
-│       └── welcome.wxss
+│   ├── login
+│   │   ├── login.js
+│   │   ├── login.json
+│   │   ├── login.wxml
+│   │   └── login.wxss
+│   └── movies
+│       ├── more-movie
+│       │   ├── more-movie.js
+│       │   ├── more-movie.json
+│       │   ├── more-movie.wxml
+│       │   └── more-movie.wxss
+│       ├── movie
+│       │   ├── movie-template.wxml
+│       │   └── movie-template.wxss
+│       ├── movie-detail
+│       │   ├── class
+│       │   │   └── Movie.js
+│       │   ├── movie-detail.js
+│       │   ├── movie-detail.json
+│       │   ├── movie-detail.wxml
+│       │   └── movie-detail.wxss
+│       ├── movie-grid
+│       │   ├── movie-grid-template.wxml
+│       │   └── movie-grid-template.wxss
+│       ├── movie-list
+│       │   ├── movie-list-template.wxml
+│       │   └── movie-list-template.wxss
+│       ├── movies.js
+│       ├── movies.json
+│       ├── movies.wxml
+│       ├── movies.wxss
+│       └── stars
+│           ├── stars-template.wxml
+│           └── stars-template.wxss
 ├── screenshots
 │   ├── 1.png
 │   ├── 2.png
-│   └── 3.png
+│   ├── 3.png
+│   ├── 4.png
+│   └── 5.png
 └── utils
     └── util.js
 ```
@@ -61,7 +69,7 @@
 ![image](https://github.com/songhaoreact/weixin/blob/master/screenshots/1.png)
 ![image](https://github.com/songhaoreact/weixin/blob/master/screenshots/2.png)
 ![image](https://github.com/songhaoreact/weixin/blob/master/screenshots/3.png)
-
+![image](https://github.com/songhaoreact/weixin/blob/master/screenshots/5.png)
 ### 快速体验，可通过微信扫描下面二维码
 ![image](https://github.com/songhaoreact/weixin/blob/master/screenshots/4.png)
 ### 功能说明
