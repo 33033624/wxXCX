@@ -70,25 +70,35 @@
 ![image](https://github.com/songhaoreact/weixin/blob/master/screenshots/2.png)
 ![image](https://github.com/songhaoreact/weixin/blob/master/screenshots/3.png)
 ![image](https://github.com/songhaoreact/weixin/blob/master/screenshots/5.png)
-### 快速体验，可通过微信扫描下面二维码
+### 快速体验，可通过微信扫描下面二维码（二维码为线上版本，可能与github不一致）
 ![image](https://github.com/songhaoreact/weixin/blob/master/screenshots/4.png)
 ### 功能说明
 接口访问来自豆瓣api,目前功能有
 搜索功能
 下拉刷新
 上拉加载
+首页启动增加css3动画
 ### 代码说明
 部分采用es6语言，组件化，模块化开发。
 ### 安装说明
 
 ```
 git clone https://github.com/songhaoreact/weixin.git
+
 cd weixin
+
 可以真机运行也可以ide运行
+
 补充说明：
+
 screenshots文件夹不需要，只是github上的效果图。
+
 readme也是github上面的，都不需要。
+
 运行前删掉screenshots和readme.md文件就行。
+
 项目来自慕课网实战,api采用豆瓣公共api接口。
+
 如果demo对你有帮助的话，帮忙点个star。
+
 ```
