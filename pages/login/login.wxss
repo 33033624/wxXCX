@@ -38,8 +38,8 @@
 }
 
 @keyframes show{
-  0% {opacity: 0;}
-  100% {opacity: .95;}
+  from {opacity: 0; transform: translate3d(-200rpx,0,0); }
+  to {opacity: 1; transform: translate3d(0,0,0); }
 }
 .remind-box {
   flex: 1;
@@ -52,7 +52,7 @@
 .remind-img {
   width: 250rpx;
   height: 250rpx;
-  padding-bottom: 25rpx;
+  padding-top: 150rpx;
 }
 .hd {
   position: absolute;
@@ -139,20 +139,3 @@
   opacity: .8;
 }
 
-/**登录动画**/
-.login_video{
-  position: absolute;
-  z-index: 1;
-  top: 50%;
-  left: 50%;
-  width: 750rpx;
-  margin-left: -375rpx;
-  height: 1334rpx;
-  margin-top: -667rpx;
-}
-.video_hidden{
-  visibility: hidden;
-}
-page .wx-video-bar{
-  display: none;
-}
