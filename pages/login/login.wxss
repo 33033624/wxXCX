@@ -41,7 +41,19 @@
   0% {opacity: 0;}
   100% {opacity: .95;}
 }
-
+.remind-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 300rpx;
+}
+.remind-img {
+  width: 250rpx;
+  height: 250rpx;
+  padding-bottom: 25rpx;
+}
 .hd {
   position: absolute;
   top: 0;
