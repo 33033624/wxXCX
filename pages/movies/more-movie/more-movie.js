@@ -8,6 +8,7 @@ Page({
     requestUrl: "",
     totalCount: 0,
     isEmpty: true,
+    hiddenLoading:false
   },
   onLoad: function (options) {
     var category = options.category;
@@ -79,10 +80,12 @@ Page({
     this.setData({
       movies: totalMovies
     });
-
     this.data.totalCount += 20;
     wx.hideNavigationBarLoading();
     wx.stopPullDownRefresh()
+    this.setData({
+      hiddenLoading:true
+    })
   },
 
   onReady: function (event) {
