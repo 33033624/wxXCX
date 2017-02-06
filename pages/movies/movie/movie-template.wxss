@@ -1,7 +1,7 @@
 @import "../stars/stars-template.wxss";
 
 .movie-container {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   padding: 0 22rpx;
 }

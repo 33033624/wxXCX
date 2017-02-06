@@ -7,7 +7,8 @@
 }
 
 .inner-container{
-    margin: 0  auto 20rpx;
+    display:flex;
+    flex-direction:column;
 }
 
 .movie-head {
@@ -40,4 +41,5 @@
 .movies-container{
     display:flex;
     flex-direction: row;
+    white-space:nowrap;
 }

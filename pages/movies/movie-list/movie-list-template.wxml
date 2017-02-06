@@ -9,14 +9,13 @@
           <image class="more-img" src="/images/icon/arrow-right.png"></image>
         </view>
       </view>
-      <view class="movies-container">
-      <block wx:for="{{movies}}" wx:for-item="movie" wx:key="index">
-        
+      <scroll-view class="movies-container" scroll-x="true">
+      <block wx:for="{{movies}}" wx:for-item="movie" wx:key="index">    
         <template is="movieTemplate" data="{{...movie}}"/>
       </block>
         <!--<template is="movieTemplate" />
         <template is="movieTemplate" />-->
-      </view>
+      </scroll-view>
     </view>
   </view>
 </template>
